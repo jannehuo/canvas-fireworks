@@ -75,6 +75,8 @@ class Particle {
       this.y = this.y0
       this.vx = 0
       this.vy = 0
+      this.moving = false
+      this.life = 0
     }
 		this.draw()
 	}
